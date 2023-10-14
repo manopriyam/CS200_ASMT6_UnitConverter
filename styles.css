@@ -73,3 +73,7 @@ label {
     font-family: monospace !important;
     font-size: 1.5vw !important;
 }
+
+.classname {
+    color= red;
+}
