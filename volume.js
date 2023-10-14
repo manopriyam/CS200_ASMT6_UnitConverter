@@ -4,14 +4,14 @@ let Liter = document.getElementById("Liter");
 let Milliliter = document.getElementById("Milliliter");
 
 function CubicMetertoOthers (val){
-    CubicCentimeter.value = val*1000000; 
-    Liter.value = val*1000; 
-    Milliliter.value= val*(1000000);
+    CubicCentimeter.value = val*10**6; 
+    Liter.value = val*10**3; 
+    Milliliter.value= val*(10**6);
 }
 
 function LitertoOthers (val){
-    CubicCentimeter.value = val*1000; 
-	CubicMeter.value = val*0.001; 
+    CubicCentimeter.value = val*10**3; 
+	CubicMeter.value = val*10**(-3); 
     Milliliter.value=val*1000;
 }
 
