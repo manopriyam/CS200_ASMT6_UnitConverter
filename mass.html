@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Converter</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+        UNIT CONVERTER - MASS CONVERSION
+    </div>
+
+    <div class="converter">
+        <div>
+            <input type="number" id="tonnes" placeholder="Tonnes" oninput="convertToOthers('tonnes',this.value)">
+        </div>
+        <div>
+            <label>Tonnes (t)</label>
+        </div>
+        <div>
+            <input type="number" id="kilograms" placeholder="Kilograms" oninput="convertToOthers('kilograms',this.value)">
+        </div>
+        <div>
+            <label>Kilograms (kg)</label>
+        </div>
+        <div>
+            <input type="number" id="grams" placeholder="Grams" oninput="convertToOthers('grams',this.value)">
+        </div>
+        <div>
+            <label>Grams (g)</label>
+        </div>
+        <div>
+            <input type="number" id="pounds" placeholder="Pounds" oninput="convertToOthers('pounds',this.value)">
+        </div>
+        <div>
+            <label>Pounds (lb)</label>
+        </div>
+        <div>
+            <input type="number" id="ounces" placeholder="Ounces" oninput="convertToOthers('ounces',this.value)">
+        </div>
+        <div>
+            <label>Ounces (oz)</label>
+        </div>
+        
+    </div>
+
+    <script src="./mass.js"></script>
+</body>
+</html>
