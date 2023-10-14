@@ -13,11 +13,11 @@
         </div>
 
         <div class="converter">
-            <div>
-                <input type="number" id="Meter" placeholder="Meter" oninput="convertToOthers('Meter',this.value)">
+         <div class="inputContainer">
+             <input type="number" id="Millimeter" placeholder="Millimeter" oninput="convertToOthers('Millimeter',this.value)">
             </div>
             <div>
-                <label>Meter (m)</label>
+                <label>Millimeter (mm)</label>
             </div>
             <div>
                 <input type="number" id="Centimeter" placeholder="Centimeter" oninput="convertToOthers('Centimeter',this.value)">
@@ -25,31 +25,35 @@
             <div>
                 <label>Centimeter (cm)</label>
             </div>
+               <div class="inputContainer">
+                <input type="number" id="Inch" placeholder="Inches" oninput="convertToOthers('Inch',this.value)">
+            </div>
+            <div>
+                <label>Inch (in)</label>
+            </div>
+               <div class="inputContainer">
+                <input type="number" id="Foot" placeholder="Foot" oninput="convertToOthers('Foot',this.value)">
+            </div>
+            <div>
+                <label>Foot (Ft)</label>
+            </div>
+            
+            
+            <div>
+                <input type="number" id="Meter" placeholder="Meter" oninput="convertToOthers('Meter',this.value)">
+            </div>
+            <div>
+                <label>Meter (m)</label>
+            </div>
+            
             <div class="inputContainer">
                 <input type="number" id="Kilometer" placeholder="Kilometer" oninput="convertToOthers('Kilometer',this.value)">
             </div>
             <div>
                 <label>Kilometer (km)</label>
             </div>
-               <div class="inputContainer">
-             <input type="number" id="Millimeter" placeholder="Millimeter" oninput="convertToOthers('Millimeter',this.value)">
-            </div>
-            <div>
-                <label>Millimeter (mm)</label>
-            </div>
-        	            <div class="inputContainer">
-                <input type="number" id="Inches" placeholder="Inches" oninput="convertToOthers('Inches',this.value)">
-            </div>
-            <div>
-                <label>Inches (in)</label>
-            </div>
-               <div class="inputContainer">
-                <input type="number" id="Foot" placeholder="Foot" oninput="convertToOthers('Foot',this.value)">
-            </div>
-            <div>
-                <label>Foot (F)</label>
-            </div>
-            
+              
+        	         
            <div class="inputContainer">
           <input type="number" id="Mile" placeholder="Mile" oninput="convertToOthers('Mile',this.value)">
             </div>
@@ -60,6 +64,4 @@
         <script src="length.js"></script>
     </body>
 </html>
-
-
 
