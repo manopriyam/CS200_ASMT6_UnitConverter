@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Converter</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+        UNIT CONVERTER - TIME CONVERSION
+    </div>
+
+    <div class="converter">
+        <div>
+            <input type="number" id="seconds" placeholder="Seconds" oninput="convertToOthers('seconds',this.value)">
+        </div>
+        <div>
+            <label>Seconds (s)</label>
+        </div>
+        <div>
+            <input type="number" id="minutes" placeholder="Minutes" oninput="convertToOthers('minutes',this.value)">
+        </div>
+        <div>
+            <label>Minutes (min)</label>
+        </div>
+        <div>
+            <input type="number" id="hours" placeholder="Hours" oninput="convertToOthers('hours',this.value)">
+        </div>
+        <div>
+            <label>Hours (hr)</label>
+        </div>
+        <div>
+            <input type="number" id="days" placeholder="Days" oninput="convertToOthers('days',this.value)">
+        </div>
+        <div>
+            <label>Days</label>
+        </div>
+        <div>
+            <input type="number" id="weeks" placeholder="Weeks" oninput="convertToOthers('weeks',this.value)">
+        </div>
+        <div>
+            <label>Weeks</label>
+        </div>
+        <div>
+            <input type="number" id="months" placeholder="Months" oninput="convertToOthers('months',this.value)">
+        </div>
+        <div>
+            <label>Months</label>
+        </div>
+        <div>
+            <input type="number" id="years" placeholder="Years" oninput="convertToOthers('years',this.value)">
+        </div>
+        <div>
+            <label>Years</label>
+        </div>
+        
+    </div>
+
+    <script src="./time.js"></script>
+</body>
+</html>
