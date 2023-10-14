@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="header">
+            UNIT CONVERTER - DATA CONVERSION
+        </div>
+
+        <div class="converter">
+            <div>
+                <input type="number" id="bits" placeholder="Bits" oninput="convertToOthers('bits',this.value)">
+            </div>
+            <div>
+                <label>Bits (b)</label>
+            </div>
+            <div>
+                <input type="number" id="bytes" placeholder="Bytes" oninput="convertToOthers('bytes',this.value)">
+            </div>
+            <div>
+                <label>Bytes (B)</label>
+            </div>
+            <div>
+                <input type="number" id="kilobytes" placeholder="Kilobytes" oninput="convertToOthers('kilobytes',this.value)">
+            </div>
+            <div>
+                <label>Kilobytes (KB)</label>
+            </div>
+            <div>
+                <input type="number" id="megabytes" placeholder="Megabytes" oninput="convertToOthers('megabytes',this.value)">
+            </div>
+            <div>
+                <label>Megabytes (MB)</label>
+            </div>
+            <div>
+                <input type="number" id="gigabytes" placeholder="Gigabytes" oninput="convertToOthers('gigabytes',this.value)">
+            </div>
+            <div>
+                <label>Gigabytes (GB)</label>
+            </div>
+            <div>
+                <input type="number" id="terabytes" placeholder="Terabytes" oninput="convertToOthers('terabytes',this.value)">
+            </div>
+            <div>
+                <label>Terabytes (TB)</label>
+            </div>
+        </div>
+        <script src="data.js"></script>
+    </body>
+</html>
