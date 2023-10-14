@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Converter</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+        UNIT CONVERTER - SPEED CONVERSION
+    </div>
+
+    <div class="converter">
+        <div>
+            <input type="number" id="mps" placeholder="Meter per Second" oninput="convertToOthers('mps',this.value)">
+        </div>
+        <div>
+            <label>Meter per Second </label>
+        </div>
+        <div>
+            <input type="number" id="mph" placeholder="Mile per Hour" oninput="convertToOthers('mph',this.value)">
+        </div>
+        <div>
+            <label>Mile per Hour</label>
+        </div>
+        <div>
+            <input type="number" id="fps" placeholder="Foot per Second" oninput="convertToOthers('fps',this.value)">
+        </div>
+        <div>
+            <label>Foot per Second</label>
+        </div>
+        <div>
+            <input type="number" id="kmph" placeholder="Kilometer per Hour" oninput="convertToOthers('kmph',this.value)">
+        </div>
+        <div>
+            <label>Kilometer per Hour</label>
+        </div>
+        <div>
+            <input type="number" id="knot" placeholder="Knot" oninput="convertToOthers('knot',this.value)">
+        </div>
+        <div>
+            <label>Knot</label>
+        
+        
+    </div>
+
+    <script src="./speed.js"></script>
+</body>
+</html>
