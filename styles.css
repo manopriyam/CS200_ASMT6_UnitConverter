@@ -40,3 +40,36 @@ a {
 }
 
 
+/* ********** ********** ********** ********** ********** ********** ********** ********** ********** ********** */
+
+.converter {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw 0vw;
+    padding: 5% 25% 5% 25%;
+    align-items: center;  
+    flex-direction: column;  
+}
+
+input {
+    border: 0.25vw solid #ffffff;
+    border-radius: 0.75vw;
+    padding: 1vw;
+    width: 20vw;
+    text-align: left;
+    font-family: monospace !important;
+    font-size: 1.5vw !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+label {
+    display: flex;
+    font-family: monospace !important;
+    font-size: 1.5vw !important;
+}
