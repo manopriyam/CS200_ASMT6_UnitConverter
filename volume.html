@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./styles.css">
     </head>
 
     <body>
@@ -13,36 +13,32 @@
         </div>
 
         <div class="converter">
-
             <div>
                 <input type="number" id="CubicCentimeter" placeholder="CubicCentimeter" oninput="convertToOthers('CubicCentimeter',this.value)">
             </div>
             <div>
-                <label>CubicCentimeter ( cm&sup3 )</label>
-            </div>
-               <div>
-              <input type="number" id="CubicMeter" placeholder="CubicMeter" oninput="convertToOthers('CubicMeter',this.value)">
+                <label>CubicCentimeter (cm&sup3)</label>
             </div>
             <div>
-                <label>CubicMeter( m&sup3 )</label>
-            </div>
-              <div class="inputContainer">
-             <input type="number" id="Milliliter" placeholder="Milliliter" oninput="convertToOthers('Milliliter',this.value)">
+                <input type="number" id="CubicMeter" placeholder="CubicMeter" oninput="convertToOthers('CubicMeter',this.value)">
             </div>
             <div>
-                <label>Milliliter ( ml )</label>
+                <label>CubicMeter (m&sup3)</label>
             </div>
-            
-            <div class="inputContainer">
+            <div>
+                <input type="number" id="Milliliter" placeholder="Milliliter" oninput="convertToOthers('Milliliter',this.value)">
+            </div>
+            <div>
+                <label>Milliliter (ml)</label>
+            </div>
+            <div>
                 <input type="number" id="Liter" placeholder="Liter" oninput="convertToOthers('Liter',this.value)">
             </div>
             <div>
-                <label>Liter( L )</label>
+                <label>Liter(L)</label>
             </div>
-
-            
-            </div>
-        <script src="volume.js"></script>
+        </div>
+        <script src="./volume.js"></script>
     </body>
 </html>
 

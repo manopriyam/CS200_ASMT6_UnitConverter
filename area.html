@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./styles.css">
     </head>
 
     <body>
@@ -13,55 +13,50 @@
         </div>
 
         <div class="converter">
-          <div class="inputContainer">
-             <input type="number" id="SquareMillimeter" placeholder="SquareMillimeter" oninput="convertToOthers('SquareMillimeter',this.value)">
+            <div>
+                <input type="number" id="SquareMillimeter" placeholder="SquareMillimeter" oninput="convertToOthers('SquareMillimeter',this.value)">
             </div>
             <div>
-                <label>SquareMillimeter ( mm&sup2 )</label>
+                <label>SquareMillimeter (mm&sup2)</label>
             </div>
-                        <div>
+            <div>
                 <input type="number" id="SquareCentimeter" placeholder="SquareCentimeter" oninput="convertToOthers('SquareCentimeter',this.value)">
             </div>
             <div>
-                <label>SquareCentimeter ( cm&sup2 )</label>
+                <label>SquareCentimeter (cm&sup2)</label>
             </div>
-              <div class="inputContainer">
-                <input type="number" id="SquareInch" placeholder="SquareInch " oninput="convertToOthers('SquareInch',this.value)">
-            </div>
-            <div>
-                <label>SquareInch( in&sup2 )</label>
-            </div>
-               <div class="inputContainer">
-                <input type="number" id="SquareFoot" placeholder="SquareFoot" oninput="convertToOthers('SquareFoot',this.value)">
-            </div>
-            <div>
-                <label>SquareFoot ( Ft&sup2 )</label>
-            </div>
-            
             <div>
                 <input type="number" id="SquareMeter" placeholder="SquareMeter" oninput="convertToOthers('SquareMeter',this.value)">
             </div>
             <div>
-                <label>SquareMeter( m&sup2 )</label>
+                <label>SquareMeter (m&sup2)</label>
             </div>
-
-            <div class="inputContainer">
+            <div>
                 <input type="number" id="SquareKilometer" placeholder="SquareKilometer" oninput="convertToOthers('SquareKilometer',this.value)">
             </div>
             <div>
-                <label>SquareKilometer( km&sup2 )</label>
-            </div>
-             
-        	          
-        <div class="inputContainer">
-       <input type="number" id="SquareMile" placeholder="SquareMile" oninput="convertToOthers('SquareMile',this.value)">
+                <label>SquareKilometer (km&sup2)</label>
             </div>
             <div>
-                <label>SquareMile ( M&sup2 )</label>
+                <input type="number" id="SquareInch" placeholder="SquareInch " oninput="convertToOthers('SquareInch',this.value)">
             </div>
-            
+            <div>
+                <label>SquareInch (in&sup2)</label>
             </div>
-        <script src="area.js"></script>
+            <div>
+                <input type="number" id="SquareFoot" placeholder="SquareFoot" oninput="convertToOthers('SquareFoot',this.value)">
+            </div>
+            <div>
+                <label>SquareFoot (ft&sup2)</label>
+            </div>
+            <div>
+                <input type="number" id="SquareMile" placeholder="SquareMile" oninput="convertToOthers('SquareMile',this.value)">
+            </div>
+            <div>
+                <label>SquareMile (mi&sup2)</label>
+            </div>
+        </div>
+        <script src="./area.js"></script>
     </body>
 </html>
 
