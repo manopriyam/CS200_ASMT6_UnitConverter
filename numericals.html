@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="header">
+            UNIT CONVERTER - NUMERICAL CONVERSION
+        </div>
+
+        <div class="converter">
+            <div>
+                <input type="text" id="decimal" placeholder="Decimal" oninput="convertToOthers('decimal',this.value)">
+            </div>
+            <div>
+                <label>Decimal (DEC)</label>
+            </div>
+            <div>
+                <input type="text" id="binary" placeholder="Binary" oninput="convertToOthers('binary',this.value)">
+            </div>
+            <div>
+                <label>Binary (BIN)</label>
+            </div>
+            <div>
+                <input type="text" id="octal" placeholder="Octal" oninput="convertToOthers('octal',this.value)">
+            </div>
+            <div>
+                <label>Octal (OCT)</label>
+            </div>
+            <div>
+                <input type="text" id="hexadecimal" placeholder="Hexadecimal" oninput="convertToOthers('hexadecimal',this.value)">
+            </div>
+            <div>
+                <label>Hexadecimal (HEX)</label>
+            </div>
+        </div>
+        <script src="numericals.js"></script>
+    </body>
+</html>
